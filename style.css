@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto; 
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.25;
+    color: #1a202c;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #243e63;
+    margin: 32px 0;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    padding-top: 32px;
+    display: flex;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding-bottom: 4px;
+}
+
+.nav__logo--img {
+  width: 40px;
+}
+
+.nav__logo--title {
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 12px;
+  padding-bottom: 2px;
+  letter-spacing: 0.6px;
+  color: #243e63;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #243e63;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 24px;
+  padding: 4px;
+  letter-spacing: 0.35px;
+}
+
+.nav__link--login {
+  margin: 0 24px 0 48px;
+  padding: 4px 0 0;
+}
+
+.nav__link--primary {
+  margin: 0;
+  margin-top: 2px;
+  background-color: #6415ff;
+  color: white;
+  padding: 10px 32px;
+  border-radius: 9999px;
+  transition: all 300 ms ease;
+}
+
+.nav__link--primary:hover {
+  background-color: rgb(76, 18, 191);
+}
+
+li {
+  list-style-type: none;
+}
+
+/* HEADER */
+
+.header__row {
+    display: flex;
+}
+
+.header__description {
+    width: 40%;
+}
+
+.header__description--title {
+    padding-top: 32px;
+}
+
+.header__email--input {
+    width: 40%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__customers--title {
+    font-size: 12px;
+    color: #a0aec0;
+    font-weight: 700;
+    margin: 80px 0 0;
+}
+
+.header__customers {
+    opacity: 0.5;
+    margin-top: 16px;
+    padding-right: 128px;
+}
+
+.header__img--wrapper {
+    width: calc(100% - 40%);
+}
+
+.header__img {
+    width: 100%;
+    max-width: 768px;
+}
