@@ -129,6 +129,18 @@ nav {
   letter-spacing: 0.35px;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #6415ff;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+
+.nav__link:hover:after {
+    content: "";
+    opacity: 1;
+}
+
 .nav__link--login {
   margin: 0 24px 0 48px;
   padding: 4px 0 0;
@@ -145,6 +157,7 @@ nav {
 }
 
 .nav__link--primary:hover {
+  text-decoration: none;
   background-color: rgb(76, 18, 191);
 }
 
@@ -309,6 +322,16 @@ li {
     margin: 0 56px;
 }
 
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
 
 /* STEPS */
 
@@ -316,7 +339,43 @@ li {
     display: flex;
 }
 
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+}
 
+.step {
+    display: flex;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color:#243e63;
+    line-height: 1;
+}
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
 
 /* VALUES */
 
